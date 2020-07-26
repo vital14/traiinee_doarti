@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "701572989590",
+    "firebase_url": "https://traineedoarti.firebaseio.com",
+    "project_id": "traineedoarti",
+    "storage_bucket": "traineedoarti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701572989590:android:126bf026f6d71a113838b7",
+        "android_client_info": {
+          "package_name": "com.example.trainee_doarti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701572989590-6pf002c1nj41uemejisrnk2bcce09sp6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQlOkg7DtpnkhChl_GEmPUdbdUR-8HA5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701572989590-6pf002c1nj41uemejisrnk2bcce09sp6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

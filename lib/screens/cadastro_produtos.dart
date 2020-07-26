@@ -88,7 +88,8 @@ class _CadastroProdutosState extends State<CadastroProdutos> {
                           decoration: InputDecoration(labelText: 'Preço'),
                           initialValue: '$_precoProduto',
                           validator: (value) {
-                            String patttern = r'(^[0-9]*$)';
+                            String patttern =
+                                r'^\$?([0-9]{1,3},([0-9]{3},)*[0-9]{3}|[0-9]+)(.[0-9][0-9])?$';
                             RegExp regExp = new RegExp(patttern);
 
                             if (value.isEmpty) return ' o campo é obrigatório';
